@@ -1,0 +1,19 @@
+{
+  "name": "siliconeapi",
+  "version": "0.0.1",
+  "description": "API for silicone-server.xyz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "npm install",
+	"start": "node ./index.js"
+  },
+  "author": "silicone-server",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.18.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
